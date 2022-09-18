@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", (event) => {
 
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {
-    location.replace("/file/welcome.html");
+    location.replace("welcome.html");
     // location.replace("dashboard.html");
   }
 });
