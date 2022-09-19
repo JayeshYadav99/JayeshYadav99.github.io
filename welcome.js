@@ -11,7 +11,7 @@ function logout() {
   firebase.auth().signOut();
 }
 
-window.onbeforeunload = function (e) {
-  alert("8");
-  firebase.auth().signOut();
-};
+// window.onbeforeunload = function (e) {
+//   alert("8");
+//   firebase.auth().signOut();
+// };
