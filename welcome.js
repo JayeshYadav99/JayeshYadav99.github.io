@@ -6,10 +6,10 @@ firebase.auth().onAuthStateChanged((user) => {
   }
 });
 
-// function logout() {
+function logout() {
 
-//   firebase.auth().signOut();
-// }
+  firebase.auth().signOut();
+}
 
 // window.onbeforeunload = function (e) {
   
