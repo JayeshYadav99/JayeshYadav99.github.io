@@ -109,7 +109,7 @@
         font-size: larger;
       }
 
-      .gradient-btn {
+      #gradient-btn {
         height: 4rem;
         width: 12rem;
         font-size: 16px;
@@ -124,7 +124,7 @@
         position: relative;
       }
 
-      .gradient-btn::after {
+      #gradient-btn::after {
         content: "";
         position: absolute;
         bottom: 0;
@@ -139,7 +139,7 @@
         transition: 0.5s ease;
       }
 
-      .gradient-btn:hover::after {
+      #gradient-btn:hover::after {
         filter: blur(15px);
       }
       select {
@@ -194,7 +194,7 @@
             list="zonedata"
             style="margin-left: 67px;" 
           /> -->
-          <select name="Zone" id="ZONE" required>
+          <select name="Zone" id="ZONE" onchange="getZoneValue();" required>
             <option
               class="default"
               value="none"
@@ -228,7 +228,7 @@
             </select> -->
         <div class="range" id="col2" style="width: 50%">
           Select Range:
-          <select name="Range" id="RANGE" required>
+          <select name="Range" id="RANGE"  onchange="getRangeValue();" required>
             <option
               class="default"
               value="none"
@@ -252,7 +252,7 @@
         <div class="district" id="col1" style="width: 50%">
           Select District:
 
-          <select name="District" id="DISTRICT" required>
+          <select name="District" id="DISTRICT"  onchange="getDistrictValue();" required>
             <option
               class="default"
               value="none"
@@ -267,7 +267,7 @@
         </div>
         <div class="subDivision" id="col2" style="width: 50%">
           Select Sub Division:
-          <select name="Subdivision" id="SUBDIVISION" required>
+          <select name="Subdivision" id="SUBDIVISION"  onchange="getSubdivison();" required>
             <option
               class="default"
               value="none"
@@ -290,7 +290,7 @@
       <div class="row3">
         <div class="policeStation" id="col1" style="width: 50%">
           Select Police Station:
-          <select name="Policestation" id="POLICESTATION" required>
+          <select name="Policestation" id="POLICESTATION"  onchange="getPolicestation();" required>
             <option
               class="default"
               value="none"
@@ -300,7 +300,7 @@
               style="padding-left: 10px"
             ></option>
             <option value="Sayajigunj Police Station">Sayajigunj Police Station</option>
-            <option value="Fatehganj Police Station">Fatehganj Police Station</option>
+            <option value="Chhani Police Station">Chhani Police Station</option>
             <option value="Sindhwai Police Station">Sindhwai Police Station</option>
             <option value="MotaBazar Police Station">MotaBazar Police Station</option>
           </select>
@@ -364,11 +364,9 @@
     </div>
     <button
       style="margin: 20px"
-      class="gradient-btn"
-      onclick="window.location.href='https://docs.google.com/spreadsheets/d/11Ykh93C0v4H04eoJCzF1GexukKCrxHNGnuym5pP1Pwg/edit#gid=514195440';"
-    >
-      Download Excel
-    </button>
+      id="gradient-btn"> Download Excel</button>
+
+
     <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
