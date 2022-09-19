@@ -6,12 +6,71 @@ firebase.auth().onAuthStateChanged((user) => {
   }
 });
 
-function logout() {
+// function logout() {
 
-  firebase.auth().signOut();
-}
+//   firebase.auth().signOut();
+// }
 
 // window.onbeforeunload = function (e) {
-//   alert("8");
+  
+  
 //   firebase.auth().signOut();
 // };
+var zone;
+var range;
+var district;
+var subdivision;
+var policestation;
+var btn = document.getElementById("gradient-btn");
+// add event listener for the button, for action "click"
+btn.addEventListener("click", Value);
+
+getZoneValue();
+function getZoneValue() {
+  zone = document.getElementById("ZONE").value;
+  
+}
+
+getRangeValue();
+function getRangeValue() {
+  range = document.getElementById("RANGE").value;
+  
+}
+getDistrictValue();
+function getDistrictValue() {
+  district = document.getElementById("DISTRICT").value;
+  
+}
+getSubdivison();
+function getSubdivison() {
+  subdivision = document.getElementById("SUBDIVISION").value;
+  
+}
+getPolicestation();
+function getPolicestation() {
+  policestation = document.getElementById("POLICESTATION").value;
+  
+}
+
+function Value()
+ {
+  if (district == "vadodara"&&policestation=="Sayajigunj Police Station") 
+  {
+    
+  window.location.href="https://docs.google.com/spreadsheets/d/1li63-Sq8zHGEFnuxvQBZwoQNoWWIKJ9ry9joYolnnwY/edit?resourcekey#gid=540839683";
+  }
+  if(district == "vadodara"&&policestation=="Chhani")
+  {
+    window.location.href="https://docs.google.com/spreadsheets/d/1li63-Sq8zHGEFnuxvQBZwoQNoWWIKJ9ry9joYolnnwY/edit?resourcekey#gid=540839683";
+
+  }
+  if(district == "bharuch"&&policestation=="Sindhwai")
+  {
+    window.location.href="Code3.png";
+  }
+  if(district == "bharuch"&&policestation=="MotaBazar")
+  {
+    window.location.href="Code4.png";
+  }
+
+}
