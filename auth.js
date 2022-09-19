@@ -37,11 +37,20 @@ function codeverify(){
 		if(c=="VADODARA"&& a=="SAYAJIGUNJ")
 		{
 			document.location.href="https://docs.google.com/forms/d/e/1FAIpQLSf8gjzOsb_ohah0sXlSw539Cvk-Iu9mRuGuUusCWrdHG5Fjqw/viewform";
-		}
-		// var f=localStorage.getItem("Zone");
-		// var resetValue =0;
-		// localStorage.setItem("Zone", resetValue);
 		
+		}
+		if(c=="VADODARA"&&a=="CHANNI")
+		{
+			document.location.href="https://docs.google.com/forms/d/e/1FAIpQLSeZpVTDUlvH7J5TDOCyI1n0c7_mRtLcSAs4UfZFOSPK5gkn8g/viewform";
+		}
+		if(c=="BHARUCH"&&a=="SINDHWAI")
+		{
+			document.location.href="https://docs.google.com/forms/d/e/1FAIpQLSeZpVTDUlvH7J5TDOCyI1n0c7_mRtLcSAs4UfZFOSPK5gkn8g/viewform";
+		}
+		if(c=="BHARUCH"&&a=="MOTABAZAR")
+		{
+			document.location.href="https://docs.google.com/forms/d/e/1FAIpQLSeZpVTDUlvH7J5TDOCyI1n0c7_mRtLcSAs4UfZFOSPK5gkn8g/viewform";
+		}
 	
         
 	}).catch(function(){
