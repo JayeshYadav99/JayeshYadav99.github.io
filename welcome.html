@@ -1,203 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dashboard</title>
-  <link rel="stylesheet" href="./index.css" />
-  <link rel="stylesheet" href="navigation.css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css" rel="stylesheet" />
-  <script src="
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="navigation.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <script src="
     https://kit.fontawesome.com/a076d05399.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
-    * {
-      box-sizing: border-box;
-    }
+      * {
+        box-sizing: border-box;
+      }
 
-    body {
-      margin: 0;
-    }
+      body {
+        margin: 0;
+      }
 
-    /* Style the header */
-    .header {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-    }
+      /* Style the header */
+      .header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+      }
 
-    ::placeholder {
-      /* Chrome, Firefox, Opera, Safari 10.1+ */
-      color: rgb(255, 255, 255);
-      padding-left: 25px;
-    }
+      ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(255, 255, 255);
+        padding-left: 25px;
+      }
 
-    input {
-      font-size: 15px;
-      padding-left: 15px;
-      color: white;
-      border-radius: 5px;
-      border: 2px solid white;
-      background-color: #5573b800;
-    }
-    option{
-  color:black;
-  padding:10px;
-}
+      input {
+        font-size: 15px;
+        padding-left: 15px;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: #5573b800;
+      }
+      option {
+        color: black;
+        padding: 10px;
+      }
 
-    /* Style the top navigation bar */
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-      margin-bottom: 15px;
-    }
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        margin-bottom: 15px;
+      }
 
-    /* Style the topnav links */
-    .topnav a {
-      float: left;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-family: sans-serif;
-      font-weight: 100;
-    }
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 100;
+      }
 
-    .logo {
-      float: left;
-      font: yellow;
-      position: relative;
-      margin: 5px 15px 5px 10px;
-      font-size: 30px;
-    }
+      .logo {
+        float: left;
+        font: yellow;
+        position: relative;
+        margin: 5px 15px 5px 10px;
+        font-size: 30px;
+      }
 
-    /* Change color on hover */
-    .notcurrent:hover {
-      background-color: #ddd;
-      color: black;
-      border-radius: 5px;
-      /* color: goldenrod; */
-      font-size: large;
-    }
-    .topnav a:hover{
-      background-color: #ddd;
-      color: black;
-      border-radius: 5px;
-      /* color: goldenrod; */
-      font-size: large;
-    }
-   
-    .current{
-      background-color: rgb(0, 128, 255);
-      color: black;
-      border-radius: 5px;
-      /* color: goldenrod; */
-      font-size: larger;
-    }
+      /* Change color on hover */
+      .notcurrent:hover {
+        background-color: #ddd;
+        color: black;
+        border-radius: 5px;
+        /* color: goldenrod; */
+        font-size: large;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        border-radius: 5px;
+        /* color: goldenrod; */
+        font-size: large;
+      }
 
-     .gradient-btn {
-      height: 4rem;
-      width: 12rem;
-      font-size: 16px;
-      font-weight: bold;
-      border-radius: 5px;
-      border: none;
-      background-color: rgb(0, 237, 79);
+      .current {
+        background-color: rgb(0, 128, 255);
+        color: black;
+        border-radius: 5px;
+        /* color: goldenrod; */
+        font-size: larger;
+      }
 
-      /* background: linear-gradient(45deg, #ef32d9, #89fffd); */
-      color: white;
-      cursor: pointer;
-      position: relative;
-    }
+      .gradient-btn {
+        height: 4rem;
+        width: 12rem;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(0, 237, 79);
 
-    .gradient-btn::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      border-radius: 40px;
-      background: linear-gradient(45deg, #ef32d9, #89fffd);
-      color: white;
-      z-index: -1;
-      filter: blur(0px);
-      transition: 0.5s ease;
-    }
+        /* background: linear-gradient(45deg, #ef32d9, #89fffd); */
+        color: white;
+        cursor: pointer;
+        position: relative;
+      }
 
-    .gradient-btn:hover::after {
-      filter: blur(15px);
-    }
-    select {
-      color: white;
-      border-radius: 5px;
-      border: 2px solid white;
-      background-color: #5573b800;
-      background-position: left;
-      background-size: 30px 30px;
-      background-repeat: no-repeat;
-      width: 70%;
-      height: 40px;
-      /* padding: 12px 20px; */
-      padding-left: 30px;
-      margin: 8px 0;
-      box-sizing: border-box;
-      margin-left: 70px;
-    }
+      .gradient-btn::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 40px;
+        background: linear-gradient(45deg, #ef32d9, #89fffd);
+        color: white;
+        z-index: -1;
+        filter: blur(0px);
+        transition: 0.5s ease;
+      }
 
-    select:focus {
-      color: black !important;
-      background-color: white;
-      border: 2px solid #5572b8;
-      /* background-image: none; */
-    }
-  </style>
-   <link rel="stylesheet" href="welcome.css" />
-</head>
+      .gradient-btn:hover::after {
+        filter: blur(15px);
+      }
+      select {
+        color: white;
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: #5573b800;
+        background-position: left;
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 40px;
+        /* padding: 12px 20px; */
+        padding-left: 30px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        margin-left: 70px;
+      }
 
-<body>
-  <header>
-    <div class="topnav">
-      <div class="logo">Gujarat Police Managment System</div>
-      <div>
-        <a class="current">Dashboard</a>
-        <a href="#" class="notcurrent">Report</a>
-        <a href="generatde.html" class="notcurrent">Generate QR Code</a>
-        <a href="signup.html" class="notcurrent">Create User</a>
-        <a href="forgetpassword.html" class="notcurrent">Change Password</a>
-        <a  href="" id="logout" class="logout" onclick="logout()" >Logout</a>
+      select:focus {
+        color: black !important;
+        background-color: white;
+        border: 2px solid #5572b8;
+        /* background-image: none; */
+      }
+    </style>
+    <link rel="stylesheet" href="welcome.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="topnav">
+        <div class="logo">Gujarat Police Managment System</div>
+        <div>
+          <a class="current">Dashboard</a>
+          <a href="#" class="notcurrent">Report</a>
+          <a href="generatde.html" class="notcurrent">Generate QR Code</a>
+          <a href="signup.html" class="notcurrent">Create User</a>
+          <a href="forgetpassword.html" class="notcurrent">Change Password</a>
+          <a href="" id="logout" class="logout" onclick="logout()">Logout</a>
+        </div>
       </div>
-    </div>
-  </header>
-  <div class="header_dashboard">DATABASE</div>
-  <div class="main_details">
-    <div class="row1">
-
-      <div class="zone" id="col1" style="width: 50%">
-        Select Zone:
-        <!-- <input
+    </header>
+    <div class="header_dashboard">DATABASE</div>
+    <div class="main_details">
+      <div class="row1">
+        <div class="zone" id="col1" style="width: 50%">
+          Select Zone:
+          <!-- <input
             type="text"
             name="zonedata"
             list="zonedata"
             style="margin-left: 67px;" 
           /> -->
-        <select name="slct" id="slct" onchange="getSelectValue();" required>
-          <option class="default" value="none" selected disabled hidden style="padding-left: 10px">
-            <!-- <p style="padding-left 10px">Enter Your Gender</p> -->
-          </option>
-          <option value="North">North</option>
-          <option value="West">West</option>
-          <!-- <option value="north">north</option>
+          <select name="Zone" id="ZONE" required>
+            <option
+              class="default"
+              value="none"
+              selected
+              disabled
+              hidden
+              style="padding-left: 10px"
+            >
+              <!-- <p style="padding-left 10px">Enter Your Gender</p> -->
+            </option>
+            <option value="North">North</option>
+            <option value="West">West</option>
+            <!-- <option value="north">north</option>
             <option value="west">west</option> -->
-        </select>
-      </div>
-      <!-- <select name="Gender" id="gender" required>
+          </select>
+        </div>
+        <!-- <select name="Gender" id="gender" required>
           <option
             class="default"
             value="none"
@@ -206,116 +220,164 @@
             hidden
             style="padding-left: 10px"
           > -->
-      <!-- <p style="padding-left 10px">Enter Your Gender</p>
+        <!-- <p style="padding-left 10px">Enter Your Gender</p>
               </option>
               <option value="Male">Male</option>
               <option value="Female">Female</option>
               <option value="Others">Others</option>
             </select> -->
-      <div class="range" id="col2" style="width: 50%;">
-        Select Range: <input type="text" name="range" list="rangedetails" style="
-          margin-left: 63px;
-      " />
-        <datalist id="rangedetails">
-          <option value="Boston"></option>
-          <option value="Cambridge"></option>
-        </datalist>
+        <div class="range" id="col2" style="width: 50%">
+          Select Range:
+          <select name="Range" id="RANGE" required>
+            <option
+              class="default"
+              value="none"
+              selected
+              disabled
+              hidden
+              style="padding-left: 10px"
+            >
+              <!-- <p style="padding-left 10px">Enter Your Gender</p> -->
+            </option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <!-- <option value="north">north</option>
+          <option value="west">west</option> -->
+          </select>
+        </div>
       </div>
-    </div>
-    <div class="row2">
-      <div class="district" id="col1" style="width: 50%;">
-        Select District: <input type="text" name="district" list="districtdata" style="
-          margin-left: 51px;" />
-        <datalist id="districtdata">
-          <option value="Boston"></option>
-          <option value="Cambridge"></option>
-        </datalist>
+      <div class="row2">
+        <div class="district" id="col1" style="width: 50%">
+          Select District:
+
+          <select name="District" id="DISTRICT" required>
+            <option
+              class="default"
+              value="none"
+              selected
+              disabled
+              hidden
+              style="padding-left: 10px"
+            ></option>
+            <option value="vadodara">vadodara</option>
+            <option value="bharuch">bharuch</option>
+          </select>
+        </div>
+        <div class="subDivision" id="col2" style="width: 50%">
+          Select Sub Division:
+          <select name="Subdivision" id="SUBDIVISION" required>
+            <option
+              class="default"
+              value="none"
+              selected
+              disabled
+              hidden
+              style="padding-left: 10px"
+            ></option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="c">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="G">G</option>
+            <option value="H">H</option>
+          </select>
+        </div>
       </div>
-      <div class="subDivision" id="col2" style="width: 50%;">
-        Select Sub Division:
-        <input type="text" name="subDivision" list="subDivisiondata" style="
-          margin-left: 24px;
-      " />
-        <datalist id="subDivisiondata">
-          <option value="Boston"></option>
-          <option value="Cambridge"></option>
-        </datalist>
-      </div>
-    </div>
-    <div class="row3">
-      <div class="policeStation" id="col1" style="width: 50%;">
-        Select Police Station:
-        <input type="text" name="policeStation" list="policeStationdata" style="
-          margin-left: 13px;" />
-        <datalist id="policeStationdata">
-          <option value="Boston"></option>
-          <option value="Cambridge"></option>
-        </datalist>
-      </div>
-      <div class="policepost" id="col2" style="width: 50%;">
-        Select Police Post:
-        <input type="text" name="policepost" list="policepostdata" style="
-          margin-left: 34px;
-      " />
-        <datalist id="policepostdata">
-          <option value="Boston"></option>
-          <option value="Cambridge"></option>
-        </datalist>
-      </div>
-    </div>
-    <div class="row4">
-      <div class="month">
-        Select Month :
-        <input type="text" name="month" list="monthdata" style="
-          margin-left: 54px;
-      " />
-        <datalist id="monthdata">
-          <option value="Boston"></option>
-          <option value="Cambridge"></option>
-        </datalist>
-      </div>
-    </div>
-    <br>
-    <div class="row5">
-      <div class="data">
-        Select Date :
-        <input type="date" name="date" style="
-              margin-left: 69px;
-          " />
-        <input type="date" name="date" style="
-              margin-left: 90px;
-          " />
-      </div>
-    </div>
-    <div class="row6">
-      <div class="data">
-        Search By:
-        <input type="radio" id="html" name="fav_language" value="HTML" style="
-              margin-left: 77px;
-          ">
-        <label for="html">Name</label>
-        <input type="radio" id="css" name="fav_language" value="CSS" style="
- margin-left: 77px;
-">
-        <label for="css">Number</label>
+      <div class="row3">
+        <div class="policeStation" id="col1" style="width: 50%">
+          Select Police Station:
+          <select name="Policestation" id="POLICESTATION" required>
+            <option
+              class="default"
+              value="none"
+              selected
+              disabled
+              hidden
+              style="padding-left: 10px"
+            ></option>
+            <option value="Sayajigunj Police Station">Sayajigunj Police Station</option>
+            <option value="Fatehganj Police Station">Fatehganj Police Station</option>
+            <option value="Sindhwai Police Station">Sindhwai Police Station</option>
+            <option value="MotaBazar Police Station">MotaBazar Police Station</option>
+          </select>
+        </div>
       </div>
 
+      <div class="row4">
+        <div class="month">
+          Select Month :
+          <input
+            type="text"
+            name="month"
+            list="monthdata"
+            style="margin-left: 54px"
+          />
+          <datalist id="monthdata">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </datalist>
+        </div>
+      </div>
+      <br />
+      <div class="row5">
+        <div class="data">
+          Select Date :
+          <input type="date" name="date" style="margin-left: 69px" />
+          <input type="date" name="date" style="margin-left: 90px" />
+        </div>
+      </div>
+      <div class="row6">
+        <div class="data">
+          Search By:
+          <input
+            type="radio"
+            id="html"
+            name="fav_language"
+            value="HTML"
+            style="margin-left: 77px"
+          />
+          <label for="html">Name</label>
+          <input
+            type="radio"
+            id="css"
+            name="fav_language"
+            value="CSS"
+            style="margin-left: 77px"
+          />
+          <label for="css">Number</label>
+        </div>
+      </div>
     </div>
-  </div>
-  <button style="margin:20px;" class="gradient-btn"
-    onclick="window.location.href='https://docs.google.com/spreadsheets/d/11Ykh93C0v4H04eoJCzF1GexukKCrxHNGnuym5pP1Pwg/edit#gid=514195440';">Download
-    Excel</button>
-  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <button
+      style="margin: 20px"
+      class="gradient-btn"
+      onclick="window.location.href='https://docs.google.com/spreadsheets/d/11Ykh93C0v4H04eoJCzF1GexukKCrxHNGnuym5pP1Pwg/edit#gid=514195440';"
+    >
+      Download Excel
+    </button>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
 
-  <!-- TODO: Add SDKs for Firebase products that you want to use
+    <!-- TODO: Add SDKs for Firebase products that you want to use
         https://firebase.google.com/docs/web/setup#available-libraries -->
-  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
 
-  <script src="firebase.js"></script>
-  
-  <script src="welcome.js"></script>
- 
-</body>
+    <script src="firebase.js"></script>
 
+    <script src="welcome.js"></script>
+  </body>
 </html>
