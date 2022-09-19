@@ -7,7 +7,7 @@
 // });
 
 function logout() {
-  alert("7");
+
   firebase.auth().signOut();
 }
 
