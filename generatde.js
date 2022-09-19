@@ -45,10 +45,10 @@ function Value() {
   }
   if (district == "Bharuch") {
     if (policestation == "Sindhwai") {
-      window.location = "Code3.png";
+      window.location.href = "Code3.png";
     }
     if (policestation == "MotaBazar") {
-      window.location = "Code4.png";
+      window.location.href= "Code4.png";
     }
   }
 }
