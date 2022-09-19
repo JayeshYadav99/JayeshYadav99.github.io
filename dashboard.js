@@ -1,10 +1,10 @@
-function logout() {
-    firebase.auth().signOut();
-  }
+// function logout() {
+//     firebase.auth().signOut();
+//   }
   
-  window.onbeforeunload = function () {
-    firebase.auth().signOut();
-  };
+//   window.onbeforeunload = function () {
+//     firebase.auth().signOut();
+//   };
 
 
   
