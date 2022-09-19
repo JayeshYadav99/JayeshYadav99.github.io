@@ -36,7 +36,7 @@ function forgotPass(){
         document.getElementById("error").innerHTML = error.message
     });
 }
-firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION)
+firebase.auth().setPersistence('SESSION')
   .then(() => {
     // Existing and future Auth states are now persisted in the current
     // session only. Closing the window would clear any existing state even
