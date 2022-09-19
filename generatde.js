@@ -40,15 +40,15 @@ function Value() {
       window.location.href = "Code1.png";
     }
     if (policestation =="Chhani") {
-      window.location.href =="code2.png";
+      window.location.href =="Code2.png";
     }
   }
   if (district == "Bharuch") {
     if (policestation == "Sindhwai") {
-      window.location == "code3.png";
+      window.location == "Code3.png";
     }
     if (policestation == "MotaBazar") {
-      window.location == "code4.png";
+      window.location == "Code4.png";
     }
   }
 }
