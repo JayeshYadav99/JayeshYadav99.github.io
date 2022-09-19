@@ -39,16 +39,16 @@ function Value() {
     if (policestation == "Sayajiganj") {
       window.location.href = "Code1.png";
     }
-    if (policestation = "Chhani") {
-      window.location.href = "code2.html";
+    if (policestation =="Chhani") {
+      window.location.href =="code2.png";
     }
   }
   if (district == "Bharuch") {
     if (policestation == "Sindhwai") {
-      window.location == "code3.html";
+      window.location == "code3.png";
     }
     if (policestation == "MotaBazar") {
-      window.location == "code4.html";
+      window.location == "code4.png";
     }
   }
 }
