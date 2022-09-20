@@ -69,7 +69,7 @@ firebase.auth().onAuthStateChanged((user) => {
   }
   if(district == "bharuch"&&policestation=="MotaBazar")
   {
-    window.location.href="https://docs.google.com/spreadsheets/d/1WaGTztJfFnwPP2ZET8Rw8PubwpekHlWnhwQnc6h5DBU/edit?resourcekey#gid=1429511130;:
+    window.location.href="https://docs.google.com/spreadsheets/d/1WaGTztJfFnwPP2ZET8Rw8PubwpekHlWnhwQnc6h5DBU/edit?resourcekey#gid=1429511130";
 
   }
 
