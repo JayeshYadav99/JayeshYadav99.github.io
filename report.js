@@ -60,16 +60,17 @@ firebase.auth().onAuthStateChanged((user) => {
   }
   if(district == "vadodara"&&policestation=="Chhani")
   {
-    window.location.href="Code2.png";
+    window.location.href="https://docs.google.com/spreadsheets/d/193HfgDFsvSUZAK21N9XjBMu1dkUReQOO6kAksIAYhEg/edit?resourcekey#gid=809364902";
 
   }
   if(district == "bharuch"&&policestation=="Sindhwai")
   {
-    window.location.href="Code3.png";
+    window.location.href="https://docs.google.com/spreadsheets/d/1EN7FVicDQidNWdZqQDGx8xfEyfYi7kTuZOTVsN6rUhk/edit?resourcekey#gid=310556717";
   }
   if(district == "bharuch"&&policestation=="MotaBazar")
   {
-    window.location.href="Code4.png";
+    window.location.href="https://docs.google.com/spreadsheets/d/1WaGTztJfFnwPP2ZET8Rw8PubwpekHlWnhwQnc6h5DBU/edit?resourcekey#gid=1429511130;:
+
   }
 
 }
