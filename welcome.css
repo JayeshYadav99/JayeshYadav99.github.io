@@ -109,6 +109,13 @@ input:focus::placeholder {
   color: black;
   padding-left: 0px;
 }
+iframe{
+  width:100%;
+  height:1000px;
+  overflow-x:hidden;
+  overflow-Y:hidden;
+
+}
 /* input,
 select{
   color: rgb(49, 5, 74);
