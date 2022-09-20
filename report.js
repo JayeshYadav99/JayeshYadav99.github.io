@@ -53,24 +53,23 @@ firebase.auth().onAuthStateChanged((user) => {
   }
   
   function Value()
-   {
-    if (district == "vadodara"&&policestation=="Sayajigunj Police Station") 
-    {
-      
-    window.location.href="https://docs.google.com/spreadsheets/d/1li63-Sq8zHGEFnuxvQBZwoQNoWWIKJ9ry9joYolnnwY/edit?resourcekey#gid=540839683";
-    }
-    if(district == "vadodara"&&policestation=="Chhani")
-    {
-      window.location.href="https://docs.google.com/spreadsheets/d/1li63-Sq8zHGEFnuxvQBZwoQNoWWIKJ9ry9joYolnnwY/edit?resourcekey#gid=540839683";
-  
-    }
-    if(district == "bharuch"&&policestation=="Sindhwai")
-    {
-      window.location.href="Code3.png";
-    }
-    if(district == "bharuch"&&policestation=="MotaBazar")
-    {
-      window.location.href="Code4.png";
-    }
-  
+ {
+  if (district == "vadodara"&&policestation=="Sayajiganj") 
+  {
+  window.location.href="https://docs.google.com/spreadsheets/d/1li63-Sq8zHGEFnuxvQBZwoQNoWWIKJ9ry9joYolnnwY/edit?resourcekey#gid=540839683";
   }
+  if(district == "vadodara"&&policestation=="Chhani")
+  {
+    window.location.href="Code2.png";
+
+  }
+  if(district == "bharuch"&&policestation=="Sindhwai")
+  {
+    window.location.href="Code3.png";
+  }
+  if(district == "bharuch"&&policestation=="MotaBazar")
+  {
+    window.location.href="Code4.png";
+  }
+
+}
