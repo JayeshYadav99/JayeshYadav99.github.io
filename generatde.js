@@ -51,7 +51,6 @@ function Value()
   if (district == "vadodara"&&policestation=="Sayajiganj") 
   {
   window.location.href="Code1.png";
-    location.reload();
   }
   if(district == "vadodara"&&policestation=="Chhani")
   {
