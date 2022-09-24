@@ -13,11 +13,12 @@ TO Check OUT Our Project      <a href="https://jayeshyadav99.github.io/"  > Clic
 
 
 <h3>Projects Credits Goes to The     </h3>
-<a href="https://github.com/JayeshYadav99" >        Jayesh Yadav                                                  </a> 
- <a href="https://github.com/Yash636261" >     Yash Suthar                                </a>        
-<a href="https://github.com/Nishitbaria" >       Nishit baria                                     </a>
+<a href="https://github.com/JayeshYadav99" >        Jayesh Yadav                                                  | </a> 
+<a href="https://github.com/VinayakVispute" >       Vinayak Vispute                                               |   </a> 
+ <a href="https://github.com/Yash636261" >     Yash Suthar                               | </a>        
+<a href="https://github.com/Nishitbaria" >       Nishit baria                                    | </a>
 <a href="https://github.com/kartik2433" >      Kartik Bhatiya                                 </a>  
-<a href="https://github.com/VinayakVispute" >       Vinayak Vispute                                                 </a> 
+
 
 
 
