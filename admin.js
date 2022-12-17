@@ -1,5 +1,5 @@
 const messsageText = document.getElementById("messageText")
-const apiKey = ""
+const apiKey = "sbkpe4s3t9w2";
 const client = new StreamChat(apiKey);
 
 const init = (url, username)=>{
@@ -98,7 +98,7 @@ function Chat(token, id){
 
 }
 
-const url = "https://stream-token-genetor.herokuapp.com/get-token"
+const url = "localhost:8080/get-token"
 const username = "admin"
 
 init(url, username)
