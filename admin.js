@@ -8,6 +8,7 @@ const init = (url, username)=>{
        headers: {
            'Content-Type': 'application/json'
        },
+       mode: 'no-cors',
        method: "post",
        body: JSON.stringify({username})
    }).then((data)=>{
