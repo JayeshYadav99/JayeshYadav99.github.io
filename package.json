@@ -2,7 +2,7 @@
   "name": "commerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/JAYESHYADAV99.GITHUB.IO",
+  "homepage": "/JAYESHYADAV99.GITHUB.IO/public/index.html",
   "dependencies": {
     "eslint-plugin-import": "^2.22.1",
     "react": "17.0.2",
