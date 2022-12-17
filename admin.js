@@ -97,7 +97,7 @@ function Chat(token, id){
 
 }
 
-const url = "localhost:3002/get-token"
+const url = "https://stream-token-genetor.herokuapp.com/get-token"
 const username = "admin"
 
 init(url, username)
