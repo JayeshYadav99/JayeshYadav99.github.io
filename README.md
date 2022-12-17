@@ -1,20 +1,20 @@
-# Stream Chat Customer Support Example App
+# Customer Support Live Chat Application built with Stream Chat and VanilaJS 💬
 
-Support teams require reliable chat that is available for every visitor. Build engaging chat with an infrastructure as a service you can trust to make sure every question gets an answer, and every visitor can convert to a customer.
+## Overview
 
-- Reliability
-- Custom Message Types
-- Bot automation and forms
+This chat application should you all set up with a chat application with Stream and Vanilajs
 
-To run this example on your machine simply run:
 
-```
-yarn && yarn start
-```
+## Quick Instructions (localhost)
 
-**Quick Links**
 
-- [Component Reference](https://getstream.github.io/stream-chat-react/)
-- [Register](https://getstream.io/chat/trial/) to get an API key for Stream Chat
-- [React Chat Tutorial](https://getstream.io/chat/react-chat/tutorial/)
-- [Chat UI Kit](https://getstream.io/chat/ui-kit/)
+## Technology Used
+
+The following technologies were used to build this API:
+
+-   Javascript
+-   [Stream Chat](https://getstream.io/chat/)
+
+Please see below for installation requirements.
+
+

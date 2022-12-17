@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Stream Live Chat</title>
+
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="chatbox chatbox22 chatbox--tray">
+                <div class="chatbox__title">
+                    <h5><a href="javascript:void()">Need help?</a></h5>
+                    <button class="chatbox__title__close">
+                        <span>
+                    <svg viewBox="0 0 12 12" width="12px" height="12px">
+                        <line stroke="#FFFFFF" x1="11.75" y1="0.25" x2="0.25" y2="11.75"></line>
+                        <line stroke="#FFFFFF" x1="11.75" y1="11.75" x2="0.25" y2="0.25"></line>
+                    </svg>
+                </span>
+                    </button>
+                </div>
+                <div class="chatbox__body">
+                    <ul id="right-msg"></ul>
+                    <ul id="left-msg"></ul>
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="messageText" type="text" class="input-sm chat_set_height" placeholder="Type your message here..." tabindex="0" dir="ltr" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" contenteditable="true" />
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/stream-chat"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="index.js">
+    </script>
+        
+
+    </script>
+    </body>
+</html>
+
+
+
