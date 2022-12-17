@@ -1,0 +1,34 @@
+{
+  "name": "commerce",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/website-react-examples/customer-support",
+  "dependencies": {
+    "eslint-plugin-import": "^2.22.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-file-utils": "1.1.1",
+    "react-scripts": "4.0.3",
+    "stream-chat": "4.5.0-beta.0",
+    "stream-chat-react": "6.4.5",
+    "uuid": "8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-plugin-markdown": "^2.2.0"
+  }
+}
