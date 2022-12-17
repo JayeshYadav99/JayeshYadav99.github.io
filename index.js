@@ -1,5 +1,5 @@
 const messsageText = document.getElementById("messageText")
-const apiKey = ""
+const apiKey = "sbkpe4s3t9w2"
 const client = new StreamChat(apiKey);
 
 const init = (url, username)=>{
