@@ -96,7 +96,7 @@ function Chat(token, id){
 }
 
 const url = "localhost:3002/get-token"
-const username = "Client"
+const username = "client"
 
 init(url, username)
 
